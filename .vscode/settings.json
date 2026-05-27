@@ -1,0 +1,20 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.test.config": {
+        "testNG": {
+            "suites": ["${workspaceFolder}/testng.xml"]
+        }
+    },
+    "maven.terminal.useJavaHome": true,
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "BASE_URL",
+            "value": ""
+        }
+    ],
+    "editor.formatOnSave": false,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Test: Run All (52 tests)",
+            "type": "shell",
+            "command": "mvn test --no-transfer-progress",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Test: Smoke only",
+            "type": "shell",
+            "command": "mvn test -Dgroups=smoke --no-transfer-progress",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Test: CRUD Workflow",
+            "type": "shell",
+            "command": "mvn test -Dtest=CrudWorkflowTest --no-transfer-progress",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Test: Auth",
+            "type": "shell",
+            "command": "mvn test -Dtest=AuthTests --no-transfer-progress",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Test: Schema Validation (JSON)",
+            "type": "shell",
+            "command": "mvn test -Dtest=SchemaValidationTest --no-transfer-progress",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Test: Schema Validation (XML)",
+            "type": "shell",
+            "command": "mvn test -Dtest=XmlSchemaValidationTest --no-transfer-progress",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Test: Contract Validation",
+            "type": "shell",
+            "command": "mvn test -Dtest=ContractValidationTest --no-transfer-progress",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Test: Chained Endpoints",
+            "type": "shell",
+            "command": "mvn test -Dtest=ChainedEndpointTest --no-transfer-progress",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Test: Negative & Edge Cases",
+            "type": "shell",
+            "command": "mvn test -Dtest=NegativeEdgeCaseTest --no-transfer-progress",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Clean + Test All",
+            "type": "shell",
+            "command": "mvn clean test --no-transfer-progress",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

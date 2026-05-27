@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug Current Test File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "projectName": "restassured-api-test-suite"
+        },
+        {
+            "type": "java",
+            "name": "Debug: CrudWorkflowTest",
+            "request": "launch",
+            "mainClass": "com.apitest.tests.CrudWorkflowTest",
+            "projectName": "restassured-api-test-suite"
+        },
+        {
+            "type": "java",
+            "name": "Debug: AuthTests",
+            "request": "launch",
+            "mainClass": "com.apitest.tests.AuthTests",
+            "projectName": "restassured-api-test-suite"
+        },
+        {
+            "type": "java",
+            "name": "Debug: XmlSchemaValidationTest",
+            "request": "launch",
+            "mainClass": "com.apitest.tests.XmlSchemaValidationTest",
+            "projectName": "restassured-api-test-suite"
+        }
+    ]
+}
