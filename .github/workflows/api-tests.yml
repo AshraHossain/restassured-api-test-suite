@@ -1,0 +1,63 @@
+# ──────────────────────────────────────────────────────────────────────────────
+#  REST Assured API Automation Suite — GitHub Actions CI
+#  Triggers: push to main/develop, pull requests targeting main
+# ──────────────────────────────────────────────────────────────────────────────
+name: REST Assured Regression Suite
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  api-tests:
+    name: Run API Test Suite
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1 ── Checkout source
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2 ── Java 17 (Temurin / Eclipse Adoptium)
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: temurin
+          cache: maven          # caches ~/.m2 between runs — faster CI
+
+      # 3 ── Cache Maven dependencies explicitly (belt-and-suspenders)
+      - name: Cache Maven packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      # 4 ── Run the full TestNG suite via Maven Surefire
+      - name: Run REST Assured test suite
+        run: mvn test -Dsurefire.suiteXmlFiles=testng.xml --no-transfer-progress
+        env:
+          BASE_URL: ${{ secrets.BASE_URL }}      # set in repo Settings → Secrets
+          API_KEY:  ${{ secrets.API_KEY }}
+
+      # 5 ── Upload Extent Report (runs even if tests fail)
+      - name: Upload Extent HTML report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: extent-report-${{ github.run_number }}
+          path: target/extent-reports/
+          retention-days: 30
+
+      # 6 ── Upload Surefire XML (for GitHub test summary parsing)
+      - name: Upload Surefire XML results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: surefire-results-${{ github.run_number }}
+          path: target/surefire-reports/
+          retention-days: 14

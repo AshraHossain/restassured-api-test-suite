@@ -1,0 +1,1961 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-27T01:10:16.551Z",
+  "nodes": [
+    {
+      "label": "setup-project.ps1",
+      "file_type": "code",
+      "source_file": "setup-project.ps1",
+      "source_location": "L1",
+      "id": "setup_project_ps1",
+      "community": 7,
+      "norm_label": "setup-project.ps1"
+    },
+    {
+      "label": "New-Dir()",
+      "file_type": "code",
+      "source_file": "setup-project.ps1",
+      "source_location": "L10",
+      "id": "restassured_api_test_suite_setup_project_new_dir",
+      "community": 7,
+      "norm_label": "new-dir()"
+    },
+    {
+      "label": "New-File()",
+      "file_type": "code",
+      "source_file": "setup-project.ps1",
+      "source_location": "L11",
+      "id": "restassured_api_test_suite_setup_project_new_file",
+      "community": 7,
+      "norm_label": "new-file()"
+    },
+    {
+      "label": "NegativeEdgeCaseTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_tests_negativeedgecasetest_java",
+      "community": 5,
+      "norm_label": "negativeedgecasetest.java"
+    },
+    {
+      "label": "NegativeEdgeCaseTest",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L22",
+      "id": "tests_negativeedgecasetest_negativeedgecasetest",
+      "community": 5,
+      "norm_label": "negativeedgecasetest"
+    },
+    {
+      "label": "BaseTest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "basetest",
+      "community": 1,
+      "norm_label": "basetest"
+    },
+    {
+      "label": ".nonExistentUserIds()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L26",
+      "id": "tests_negativeedgecasetest_negativeedgecasetest_nonexistentuserids",
+      "community": 5,
+      "norm_label": ".nonexistentuserids()"
+    },
+    {
+      "label": ".testNonExistentUserReturns404()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L35",
+      "id": "tests_negativeedgecasetest_negativeedgecasetest_testnonexistentuserreturns404",
+      "community": 5,
+      "norm_label": ".testnonexistentuserreturns404()"
+    },
+    {
+      "label": ".testRegisterEmptyBodyReturns400()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L50",
+      "id": "tests_negativeedgecasetest_negativeedgecasetest_testregisteremptybodyreturns400",
+      "community": 5,
+      "norm_label": ".testregisteremptybodyreturns400()"
+    },
+    {
+      "label": ".testLoginEmptyStringBodyReturns400()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L63",
+      "id": "tests_negativeedgecasetest_negativeedgecasetest_testloginemptystringbodyreturns400",
+      "community": 5,
+      "norm_label": ".testloginemptystringbodyreturns400()"
+    },
+    {
+      "label": ".boundaryPageNumbers()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L79",
+      "id": "tests_negativeedgecasetest_negativeedgecasetest_boundarypagenumbers",
+      "community": 5,
+      "norm_label": ".boundarypagenumbers()"
+    },
+    {
+      "label": ".testPaginationBoundary()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L88",
+      "id": "tests_negativeedgecasetest_negativeedgecasetest_testpaginationboundary",
+      "community": 5,
+      "norm_label": ".testpaginationboundary()"
+    },
+    {
+      "label": ".testSqlInjectionInQueryParam()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L104",
+      "id": "tests_negativeedgecasetest_negativeedgecasetest_testsqlinjectioninqueryparam",
+      "community": 5,
+      "norm_label": ".testsqlinjectioninqueryparam()"
+    },
+    {
+      "label": ".testDeleteWithoutIdIsRejected()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L119",
+      "id": "tests_negativeedgecasetest_negativeedgecasetest_testdeletewithoutidisrejected",
+      "community": 5,
+      "norm_label": ".testdeletewithoutidisrejected()"
+    },
+    {
+      "label": ".testOversizedPayloadHandledGracefully()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L132",
+      "id": "tests_negativeedgecasetest_negativeedgecasetest_testoversizedpayloadhandledgracefully",
+      "community": 5,
+      "norm_label": ".testoversizedpayloadhandledgracefully()"
+    },
+    {
+      "label": "ChainedEndpointTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_tests_chainedendpointtest_java",
+      "community": 1,
+      "norm_label": "chainedendpointtest.java"
+    },
+    {
+      "label": "ChainedEndpointTest",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L23",
+      "id": "tests_chainedendpointtest_chainedendpointtest",
+      "community": 1,
+      "norm_label": "chainedendpointtest"
+    },
+    {
+      "label": ".testRegisterLoginChain()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L27",
+      "id": "tests_chainedendpointtest_chainedendpointtest_testregisterloginchain",
+      "community": 1,
+      "norm_label": ".testregisterloginchain()"
+    },
+    {
+      "label": ".testCreateThenReadChain()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L68",
+      "id": "tests_chainedendpointtest_chainedendpointtest_testcreatethenreadchain",
+      "community": 1,
+      "norm_label": ".testcreatethenreadchain()"
+    },
+    {
+      "label": ".testCreateThenUpdateChain()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L108",
+      "id": "tests_chainedendpointtest_chainedendpointtest_testcreatethenupdatechain",
+      "community": 1,
+      "norm_label": ".testcreatethenupdatechain()"
+    },
+    {
+      "label": ".testPaginationChain()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L138",
+      "id": "tests_chainedendpointtest_chainedendpointtest_testpaginationchain",
+      "community": 1,
+      "norm_label": ".testpaginationchain()"
+    },
+    {
+      "label": "AuthTests.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_tests_authtests_java",
+      "community": 2,
+      "norm_label": "authtests.java"
+    },
+    {
+      "label": "AuthTests",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L21",
+      "id": "tests_authtests_authtests",
+      "community": 2,
+      "norm_label": "authtests"
+    },
+    {
+      "label": ".testSuccessfulLogin()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L25",
+      "id": "tests_authtests_authtests_testsuccessfullogin",
+      "community": 2,
+      "norm_label": ".testsuccessfullogin()"
+    },
+    {
+      "label": ".testBearerTokenGrantsAccess()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L39",
+      "id": "tests_authtests_authtests_testbearertokengrantsaccess",
+      "community": 2,
+      "norm_label": ".testbearertokengrantsaccess()"
+    },
+    {
+      "label": ".testSuccessfulRegistration()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L54",
+      "id": "tests_authtests_authtests_testsuccessfulregistration",
+      "community": 2,
+      "norm_label": ".testsuccessfulregistration()"
+    },
+    {
+      "label": ".testLoginWithMissingPasswordReturns400()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L70",
+      "id": "tests_authtests_authtests_testloginwithmissingpasswordreturns400",
+      "community": 2,
+      "norm_label": ".testloginwithmissingpasswordreturns400()"
+    },
+    {
+      "label": ".testLoginWithMissingEmailReturns400()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L83",
+      "id": "tests_authtests_authtests_testloginwithmissingemailreturns400",
+      "community": 2,
+      "norm_label": ".testloginwithmissingemailreturns400()"
+    },
+    {
+      "label": ".testRegisterUndefinedUserReturns400()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L96",
+      "id": "tests_authtests_authtests_testregisterundefineduserreturns400",
+      "community": 2,
+      "norm_label": ".testregisterundefineduserreturns400()"
+    },
+    {
+      "label": ".testCustomRequestIdHeader()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L111",
+      "id": "tests_authtests_authtests_testcustomrequestidheader",
+      "community": 2,
+      "norm_label": ".testcustomrequestidheader()"
+    },
+    {
+      "label": "CrudWorkflowTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_tests_crudworkflowtest_java",
+      "community": 3,
+      "norm_label": "crudworkflowtest.java"
+    },
+    {
+      "label": "CrudWorkflowTest",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L22",
+      "id": "tests_crudworkflowtest_crudworkflowtest",
+      "community": 3,
+      "norm_label": "crudworkflowtest"
+    },
+    {
+      "label": ".testCreateUser()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L29",
+      "id": "tests_crudworkflowtest_crudworkflowtest_testcreateuser",
+      "community": 3,
+      "norm_label": ".testcreateuser()"
+    },
+    {
+      "label": ".testGetUserById()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L50",
+      "id": "tests_crudworkflowtest_crudworkflowtest_testgetuserbyid",
+      "community": 3,
+      "norm_label": ".testgetuserbyid()"
+    },
+    {
+      "label": ".testGetUserList()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L67",
+      "id": "tests_crudworkflowtest_crudworkflowtest_testgetuserlist",
+      "community": 3,
+      "norm_label": ".testgetuserlist()"
+    },
+    {
+      "label": ".testUpdateUserPut()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L85",
+      "id": "tests_crudworkflowtest_crudworkflowtest_testupdateuserput",
+      "community": 3,
+      "norm_label": ".testupdateuserput()"
+    },
+    {
+      "label": ".testUpdateUserPatch()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L100",
+      "id": "tests_crudworkflowtest_crudworkflowtest_testupdateuserpatch",
+      "community": 3,
+      "norm_label": ".testupdateuserpatch()"
+    },
+    {
+      "label": ".testDeleteUser()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L116",
+      "id": "tests_crudworkflowtest_crudworkflowtest_testdeleteuser",
+      "community": 3,
+      "norm_label": ".testdeleteuser()"
+    },
+    {
+      "label": ".testDeleteIdempotency()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L129",
+      "id": "tests_crudworkflowtest_crudworkflowtest_testdeleteidempotency",
+      "community": 3,
+      "norm_label": ".testdeleteidempotency()"
+    },
+    {
+      "label": "SchemaValidationTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_tests_schemavalidationtest_java",
+      "community": 6,
+      "norm_label": "schemavalidationtest.java"
+    },
+    {
+      "label": "SchemaValidationTest",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L20",
+      "id": "tests_schemavalidationtest_schemavalidationtest",
+      "community": 6,
+      "norm_label": "schemavalidationtest"
+    },
+    {
+      "label": ".testSingleUserMatchesJsonSchema()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L24",
+      "id": "tests_schemavalidationtest_schemavalidationtest_testsingleusermatchesjsonschema",
+      "community": 6,
+      "norm_label": ".testsingleusermatchesjsonschema()"
+    },
+    {
+      "label": ".testUserListMatchesJsonSchema()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L36",
+      "id": "tests_schemavalidationtest_schemavalidationtest_testuserlistmatchesjsonschema",
+      "community": 6,
+      "norm_label": ".testuserlistmatchesjsonschema()"
+    },
+    {
+      "label": ".testCreatedUserMatchesSchema()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L49",
+      "id": "tests_schemavalidationtest_schemavalidationtest_testcreatedusermatchesschema",
+      "community": 6,
+      "norm_label": ".testcreatedusermatchesschema()"
+    },
+    {
+      "label": ".testUserFieldTypes()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L64",
+      "id": "tests_schemavalidationtest_schemavalidationtest_testuserfieldtypes",
+      "community": 6,
+      "norm_label": ".testuserfieldtypes()"
+    },
+    {
+      "label": ".testPaginationEnvelopeShape()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L82",
+      "id": "tests_schemavalidationtest_schemavalidationtest_testpaginationenvelopeshape",
+      "community": 6,
+      "norm_label": ".testpaginationenvelopeshape()"
+    },
+    {
+      "label": ".testNoSensitiveFieldsLeaked()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L102",
+      "id": "tests_schemavalidationtest_schemavalidationtest_testnosensitivefieldsleaked",
+      "community": 6,
+      "norm_label": ".testnosensitivefieldsleaked()"
+    },
+    {
+      "label": "ContractValidationTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_tests_contractvalidationtest_java",
+      "community": 1,
+      "norm_label": "contractvalidationtest.java"
+    },
+    {
+      "label": "ContractValidationTest",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L23",
+      "id": "tests_contractvalidationtest_contractvalidationtest",
+      "community": 1,
+      "norm_label": "contractvalidationtest"
+    },
+    {
+      "label": ".testUserResponseContract()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L27",
+      "id": "tests_contractvalidationtest_contractvalidationtest_testuserresponsecontract",
+      "community": 1,
+      "norm_label": ".testuserresponsecontract()"
+    },
+    {
+      "label": ".testPasswordNeverExposedInUserContract()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L45",
+      "id": "tests_contractvalidationtest_contractvalidationtest_testpasswordneverexposedinusercontract",
+      "community": 1,
+      "norm_label": ".testpasswordneverexposedinusercontract()"
+    },
+    {
+      "label": ".testUserListItemsMatchContract()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L61",
+      "id": "tests_contractvalidationtest_contractvalidationtest_testuserlistitemsmatchcontract",
+      "community": 1,
+      "norm_label": ".testuserlistitemsmatchcontract()"
+    },
+    {
+      "label": ".testCreateUserResponseContract()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L93",
+      "id": "tests_contractvalidationtest_contractvalidationtest_testcreateuserresponsecontract",
+      "community": 1,
+      "norm_label": ".testcreateuserresponsecontract()"
+    },
+    {
+      "label": ".testDeleteReturnsNoBody()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L113",
+      "id": "tests_contractvalidationtest_contractvalidationtest_testdeletereturnsnobody",
+      "community": 1,
+      "norm_label": ".testdeletereturnsnobody()"
+    },
+    {
+      "label": ".testContentTypeHeaderContract()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L131",
+      "id": "tests_contractvalidationtest_contractvalidationtest_testcontenttypeheadercontract",
+      "community": 1,
+      "norm_label": ".testcontenttypeheadercontract()"
+    },
+    {
+      "label": "BaseTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_base_basetest_java",
+      "community": 0,
+      "norm_label": "basetest.java"
+    },
+    {
+      "label": "BaseTest",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L24",
+      "id": "base_basetest_basetest",
+      "community": 0,
+      "norm_label": "basetest"
+    },
+    {
+      "label": ".globalSetup()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L31",
+      "id": "base_basetest_basetest_globalsetup",
+      "community": 0,
+      "norm_label": ".globalsetup()"
+    },
+    {
+      "label": ".startTest()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L50",
+      "id": "base_basetest_basetest_starttest",
+      "community": 0,
+      "norm_label": ".starttest()"
+    },
+    {
+      "label": ".logResult()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L57",
+      "id": "base_basetest_basetest_logresult",
+      "community": 0,
+      "norm_label": ".logresult()"
+    },
+    {
+      "label": ".flushReport()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L69",
+      "id": "base_basetest_basetest_flushreport",
+      "community": 0,
+      "norm_label": ".flushreport()"
+    },
+    {
+      "label": ".loadConfig()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L76",
+      "id": "base_basetest_basetest_loadconfig",
+      "community": 0,
+      "norm_label": ".loadconfig()"
+    },
+    {
+      "label": ".getBaseUrl()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L83",
+      "id": "base_basetest_basetest_getbaseurl",
+      "community": 0,
+      "norm_label": ".getbaseurl()"
+    },
+    {
+      "label": "UserPayload.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/payloads/UserPayload.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_payloads_userpayload_java",
+      "community": 3,
+      "norm_label": "userpayload.java"
+    },
+    {
+      "label": "UserPayload",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/payloads/UserPayload.java",
+      "source_location": "L13",
+      "id": "payloads_userpayload_userpayload",
+      "community": 3,
+      "norm_label": "userpayload"
+    },
+    {
+      "label": ".createUser()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/payloads/UserPayload.java",
+      "source_location": "L16",
+      "id": "payloads_userpayload_userpayload_createuser",
+      "community": 3,
+      "norm_label": ".createuser()"
+    },
+    {
+      "label": ".updateUser()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/payloads/UserPayload.java",
+      "source_location": "L24",
+      "id": "payloads_userpayload_userpayload_updateuser",
+      "community": 3,
+      "norm_label": ".updateuser()"
+    },
+    {
+      "label": ".patchUser()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/payloads/UserPayload.java",
+      "source_location": "L32",
+      "id": "payloads_userpayload_userpayload_patchuser",
+      "community": 3,
+      "norm_label": ".patchuser()"
+    },
+    {
+      "label": "ExtentReportManager.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/ExtentReportManager.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_utils_extentreportmanager_java",
+      "community": 0,
+      "norm_label": "extentreportmanager.java"
+    },
+    {
+      "label": "ExtentReportManager",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/ExtentReportManager.java",
+      "source_location": "L17",
+      "id": "utils_extentreportmanager_extentreportmanager",
+      "community": 0,
+      "norm_label": "extentreportmanager"
+    },
+    {
+      "label": ".ExtentReportManager()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/ExtentReportManager.java",
+      "source_location": "L21",
+      "id": "utils_extentreportmanager_extentreportmanager_extentreportmanager",
+      "community": 0,
+      "norm_label": ".extentreportmanager()"
+    },
+    {
+      "label": ".getInstance()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/ExtentReportManager.java",
+      "source_location": "L23",
+      "id": "utils_extentreportmanager_extentreportmanager_getinstance",
+      "community": 0,
+      "norm_label": ".getinstance()"
+    },
+    {
+      "label": "TokenStore.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_utils_tokenstore_java",
+      "community": 2,
+      "norm_label": "tokenstore.java"
+    },
+    {
+      "label": "TokenStore",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L13",
+      "id": "utils_tokenstore_tokenstore",
+      "community": 2,
+      "norm_label": "tokenstore"
+    },
+    {
+      "label": ".TokenStore()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L17",
+      "id": "utils_tokenstore_tokenstore_tokenstore",
+      "community": 2,
+      "norm_label": ".tokenstore()"
+    },
+    {
+      "label": ".getValidToken()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L23",
+      "id": "utils_tokenstore_tokenstore_getvalidtoken",
+      "community": 2,
+      "norm_label": ".getvalidtoken()"
+    },
+    {
+      "label": ".invalidate()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L32",
+      "id": "utils_tokenstore_tokenstore_invalidate",
+      "community": 2,
+      "norm_label": ".invalidate()"
+    },
+    {
+      "label": ".fetchToken()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L38",
+      "id": "utils_tokenstore_tokenstore_fetchtoken",
+      "community": 2,
+      "norm_label": ".fetchtoken()"
+    },
+    {
+      "label": "ReqresMockServer.java",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L1",
+      "id": "src_test_java_com_apitest_utils_reqresmockserver_java",
+      "community": 0,
+      "norm_label": "reqresmockserver.java"
+    },
+    {
+      "label": "ReqresMockServer",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L14",
+      "id": "utils_reqresmockserver_reqresmockserver",
+      "community": 0,
+      "norm_label": "reqresmockserver"
+    },
+    {
+      "label": ".start()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L18",
+      "id": "utils_reqresmockserver_reqresmockserver_start",
+      "community": 0,
+      "norm_label": ".start()"
+    },
+    {
+      "label": ".stop()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L27",
+      "id": "utils_reqresmockserver_reqresmockserver_stop",
+      "community": 0,
+      "norm_label": ".stop()"
+    },
+    {
+      "label": ".getBaseUrl()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L34",
+      "id": "utils_reqresmockserver_reqresmockserver_getbaseurl",
+      "community": 0,
+      "norm_label": ".getbaseurl()"
+    },
+    {
+      "label": ".setupStubs()",
+      "file_type": "code",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L41",
+      "id": "utils_reqresmockserver_reqresmockserver_setupstubs",
+      "community": 0,
+      "norm_label": ".setupstubs()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 4,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "REST Assured API Automation Suite",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "restassured_api_test_suite_readme_rest_assured_api_automation_suite",
+      "community": 4,
+      "norm_label": "rest assured api automation suite"
+    },
+    {
+      "label": "Features",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "id": "restassured_api_test_suite_readme_features",
+      "community": 4,
+      "norm_label": "features"
+    },
+    {
+      "label": "Tech Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L28",
+      "id": "restassured_api_test_suite_readme_tech_stack",
+      "community": 4,
+      "norm_label": "tech stack"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "id": "restassured_api_test_suite_readme_project_structure",
+      "community": 4,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "code:block1 (restassured-api-test-suite/)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L42",
+      "id": "restassured_api_test_suite_readme_codeblock_1",
+      "community": 4,
+      "norm_label": "code:block1 (restassured-api-test-suite/)"
+    },
+    {
+      "label": "Running the Suite",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "id": "restassured_api_test_suite_readme_running_the_suite",
+      "community": 4,
+      "norm_label": "running the suite"
+    },
+    {
+      "label": "code:bash (# Clone)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "id": "restassured_api_test_suite_readme_codeblock_2",
+      "community": 4,
+      "norm_label": "code:bash (# clone)"
+    },
+    {
+      "label": "CI Pipeline",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L96",
+      "id": "restassured_api_test_suite_readme_ci_pipeline",
+      "community": 4,
+      "norm_label": "ci pipeline"
+    },
+    {
+      "label": "code:block3 (push / PR → checkout → setup JDK 17 → mvn test → upload Exte)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "id": "restassured_api_test_suite_readme_codeblock_3",
+      "community": 4,
+      "norm_label": "code:block3 (push / pr → checkout → setup jdk 17 → mvn test → upload exte)"
+    },
+    {
+      "label": "Target API",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L108",
+      "id": "restassured_api_test_suite_readme_target_api",
+      "community": 4,
+      "norm_label": "target api"
+    },
+    {
+      "label": "Author",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L114",
+      "id": "restassured_api_test_suite_readme_author",
+      "community": 4,
+      "norm_label": "author"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup-project.ps1",
+      "source_location": "L10",
+      "weight": 1,
+      "source": "setup_project_ps1",
+      "target": "restassured_api_test_suite_setup_project_new_dir",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "setup-project.ps1",
+      "source_location": "L11",
+      "weight": 1,
+      "source": "setup_project_ps1",
+      "target": "restassured_api_test_suite_setup_project_new_file",
+      "confidence_score": 1
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_negativeedgecasetest_java",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L22",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_negativeedgecasetest_java",
+      "target": "tests_negativeedgecasetest_negativeedgecasetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L22",
+      "weight": 1,
+      "source": "tests_negativeedgecasetest_negativeedgecasetest",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L26",
+      "weight": 1,
+      "source": "tests_negativeedgecasetest_negativeedgecasetest",
+      "target": "tests_negativeedgecasetest_negativeedgecasetest_nonexistentuserids",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L35",
+      "weight": 1,
+      "source": "tests_negativeedgecasetest_negativeedgecasetest",
+      "target": "tests_negativeedgecasetest_negativeedgecasetest_testnonexistentuserreturns404",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L50",
+      "weight": 1,
+      "source": "tests_negativeedgecasetest_negativeedgecasetest",
+      "target": "tests_negativeedgecasetest_negativeedgecasetest_testregisteremptybodyreturns400",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L63",
+      "weight": 1,
+      "source": "tests_negativeedgecasetest_negativeedgecasetest",
+      "target": "tests_negativeedgecasetest_negativeedgecasetest_testloginemptystringbodyreturns400",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L79",
+      "weight": 1,
+      "source": "tests_negativeedgecasetest_negativeedgecasetest",
+      "target": "tests_negativeedgecasetest_negativeedgecasetest_boundarypagenumbers",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L88",
+      "weight": 1,
+      "source": "tests_negativeedgecasetest_negativeedgecasetest",
+      "target": "tests_negativeedgecasetest_negativeedgecasetest_testpaginationboundary",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L104",
+      "weight": 1,
+      "source": "tests_negativeedgecasetest_negativeedgecasetest",
+      "target": "tests_negativeedgecasetest_negativeedgecasetest_testsqlinjectioninqueryparam",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L119",
+      "weight": 1,
+      "source": "tests_negativeedgecasetest_negativeedgecasetest",
+      "target": "tests_negativeedgecasetest_negativeedgecasetest_testdeletewithoutidisrejected",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/NegativeEdgeCaseTest.java",
+      "source_location": "L132",
+      "weight": 1,
+      "source": "tests_negativeedgecasetest_negativeedgecasetest",
+      "target": "tests_negativeedgecasetest_negativeedgecasetest_testoversizedpayloadhandledgracefully",
+      "confidence_score": 1
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_chainedendpointtest_java",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "tests_chainedendpointtest_chainedendpointtest",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_authtests_java",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L21",
+      "weight": 1,
+      "source": "tests_authtests_authtests",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_crudworkflowtest_java",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L22",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_schemavalidationtest_java",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L20",
+      "weight": 1,
+      "source": "tests_schemavalidationtest_schemavalidationtest",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L3",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_contractvalidationtest_java",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "tests_contractvalidationtest_contractvalidationtest",
+      "target": "basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_chainedendpointtest_java",
+      "target": "tests_chainedendpointtest_chainedendpointtest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L27",
+      "weight": 1,
+      "source": "tests_chainedendpointtest_chainedendpointtest",
+      "target": "tests_chainedendpointtest_chainedendpointtest_testregisterloginchain",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L68",
+      "weight": 1,
+      "source": "tests_chainedendpointtest_chainedendpointtest",
+      "target": "tests_chainedendpointtest_chainedendpointtest_testcreatethenreadchain",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L108",
+      "weight": 1,
+      "source": "tests_chainedendpointtest_chainedendpointtest",
+      "target": "tests_chainedendpointtest_chainedendpointtest_testcreatethenupdatechain",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ChainedEndpointTest.java",
+      "source_location": "L138",
+      "weight": 1,
+      "source": "tests_chainedendpointtest_chainedendpointtest",
+      "target": "tests_chainedendpointtest_chainedendpointtest_testpaginationchain",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L21",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_authtests_java",
+      "target": "tests_authtests_authtests",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L25",
+      "weight": 1,
+      "source": "tests_authtests_authtests",
+      "target": "tests_authtests_authtests_testsuccessfullogin",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L39",
+      "weight": 1,
+      "source": "tests_authtests_authtests",
+      "target": "tests_authtests_authtests_testbearertokengrantsaccess",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L54",
+      "weight": 1,
+      "source": "tests_authtests_authtests",
+      "target": "tests_authtests_authtests_testsuccessfulregistration",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L70",
+      "weight": 1,
+      "source": "tests_authtests_authtests",
+      "target": "tests_authtests_authtests_testloginwithmissingpasswordreturns400",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L83",
+      "weight": 1,
+      "source": "tests_authtests_authtests",
+      "target": "tests_authtests_authtests_testloginwithmissingemailreturns400",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L96",
+      "weight": 1,
+      "source": "tests_authtests_authtests",
+      "target": "tests_authtests_authtests_testregisterundefineduserreturns400",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L111",
+      "weight": 1,
+      "source": "tests_authtests_authtests",
+      "target": "tests_authtests_authtests_testcustomrequestidheader",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/apitest/tests/AuthTests.java",
+      "source_location": "L42",
+      "weight": 1,
+      "source": "tests_authtests_authtests_testbearertokengrantsaccess",
+      "target": "utils_tokenstore_tokenstore_getvalidtoken"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L22",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_crudworkflowtest_java",
+      "target": "tests_crudworkflowtest_crudworkflowtest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L29",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest",
+      "target": "tests_crudworkflowtest_crudworkflowtest_testcreateuser",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L50",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest",
+      "target": "tests_crudworkflowtest_crudworkflowtest_testgetuserbyid",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L67",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest",
+      "target": "tests_crudworkflowtest_crudworkflowtest_testgetuserlist",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L85",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest",
+      "target": "tests_crudworkflowtest_crudworkflowtest_testupdateuserput",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L100",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest",
+      "target": "tests_crudworkflowtest_crudworkflowtest_testupdateuserpatch",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L116",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest",
+      "target": "tests_crudworkflowtest_crudworkflowtest_testdeleteuser",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L129",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest",
+      "target": "tests_crudworkflowtest_crudworkflowtest_testdeleteidempotency",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L34",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest_testcreateuser",
+      "target": "payloads_userpayload_userpayload_createuser"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L90",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest_testupdateuserput",
+      "target": "payloads_userpayload_userpayload_updateuser"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/apitest/tests/CrudWorkflowTest.java",
+      "source_location": "L105",
+      "weight": 1,
+      "source": "tests_crudworkflowtest_crudworkflowtest_testupdateuserpatch",
+      "target": "payloads_userpayload_userpayload_patchuser"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L20",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_schemavalidationtest_java",
+      "target": "tests_schemavalidationtest_schemavalidationtest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L24",
+      "weight": 1,
+      "source": "tests_schemavalidationtest_schemavalidationtest",
+      "target": "tests_schemavalidationtest_schemavalidationtest_testsingleusermatchesjsonschema",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L36",
+      "weight": 1,
+      "source": "tests_schemavalidationtest_schemavalidationtest",
+      "target": "tests_schemavalidationtest_schemavalidationtest_testuserlistmatchesjsonschema",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L49",
+      "weight": 1,
+      "source": "tests_schemavalidationtest_schemavalidationtest",
+      "target": "tests_schemavalidationtest_schemavalidationtest_testcreatedusermatchesschema",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L64",
+      "weight": 1,
+      "source": "tests_schemavalidationtest_schemavalidationtest",
+      "target": "tests_schemavalidationtest_schemavalidationtest_testuserfieldtypes",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L82",
+      "weight": 1,
+      "source": "tests_schemavalidationtest_schemavalidationtest",
+      "target": "tests_schemavalidationtest_schemavalidationtest_testpaginationenvelopeshape",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/SchemaValidationTest.java",
+      "source_location": "L102",
+      "weight": 1,
+      "source": "tests_schemavalidationtest_schemavalidationtest",
+      "target": "tests_schemavalidationtest_schemavalidationtest_testnosensitivefieldsleaked",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_tests_contractvalidationtest_java",
+      "target": "tests_contractvalidationtest_contractvalidationtest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L27",
+      "weight": 1,
+      "source": "tests_contractvalidationtest_contractvalidationtest",
+      "target": "tests_contractvalidationtest_contractvalidationtest_testuserresponsecontract",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L45",
+      "weight": 1,
+      "source": "tests_contractvalidationtest_contractvalidationtest",
+      "target": "tests_contractvalidationtest_contractvalidationtest_testpasswordneverexposedinusercontract",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L61",
+      "weight": 1,
+      "source": "tests_contractvalidationtest_contractvalidationtest",
+      "target": "tests_contractvalidationtest_contractvalidationtest_testuserlistitemsmatchcontract",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L93",
+      "weight": 1,
+      "source": "tests_contractvalidationtest_contractvalidationtest",
+      "target": "tests_contractvalidationtest_contractvalidationtest_testcreateuserresponsecontract",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L113",
+      "weight": 1,
+      "source": "tests_contractvalidationtest_contractvalidationtest",
+      "target": "tests_contractvalidationtest_contractvalidationtest_testdeletereturnsnobody",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/tests/ContractValidationTest.java",
+      "source_location": "L131",
+      "weight": 1,
+      "source": "tests_contractvalidationtest_contractvalidationtest",
+      "target": "tests_contractvalidationtest_contractvalidationtest_testcontenttypeheadercontract",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L24",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_base_basetest_java",
+      "target": "base_basetest_basetest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L31",
+      "weight": 1,
+      "source": "base_basetest_basetest",
+      "target": "base_basetest_basetest_globalsetup",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L50",
+      "weight": 1,
+      "source": "base_basetest_basetest",
+      "target": "base_basetest_basetest_starttest",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L57",
+      "weight": 1,
+      "source": "base_basetest_basetest",
+      "target": "base_basetest_basetest_logresult",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L69",
+      "weight": 1,
+      "source": "base_basetest_basetest",
+      "target": "base_basetest_basetest_flushreport",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L76",
+      "weight": 1,
+      "source": "base_basetest_basetest",
+      "target": "base_basetest_basetest_loadconfig",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L83",
+      "weight": 1,
+      "source": "base_basetest_basetest",
+      "target": "base_basetest_basetest_getbaseurl",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L33",
+      "weight": 1,
+      "source": "base_basetest_basetest_globalsetup",
+      "target": "base_basetest_basetest_loadconfig",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L37",
+      "weight": 1,
+      "source": "base_basetest_basetest_globalsetup",
+      "target": "base_basetest_basetest_getbaseurl",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L36",
+      "weight": 1,
+      "source": "base_basetest_basetest_globalsetup",
+      "target": "utils_reqresmockserver_reqresmockserver_start"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L53",
+      "weight": 1,
+      "source": "base_basetest_basetest_starttest",
+      "target": "utils_extentreportmanager_extentreportmanager_getinstance"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L71",
+      "weight": 1,
+      "source": "base_basetest_basetest_flushreport",
+      "target": "utils_extentreportmanager_extentreportmanager_getinstance"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/com/apitest/base/BaseTest.java",
+      "source_location": "L72",
+      "weight": 1,
+      "source": "base_basetest_basetest_flushreport",
+      "target": "utils_reqresmockserver_reqresmockserver_stop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/payloads/UserPayload.java",
+      "source_location": "L13",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_payloads_userpayload_java",
+      "target": "payloads_userpayload_userpayload",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/payloads/UserPayload.java",
+      "source_location": "L16",
+      "weight": 1,
+      "source": "payloads_userpayload_userpayload",
+      "target": "payloads_userpayload_userpayload_createuser",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/payloads/UserPayload.java",
+      "source_location": "L24",
+      "weight": 1,
+      "source": "payloads_userpayload_userpayload",
+      "target": "payloads_userpayload_userpayload_updateuser",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/payloads/UserPayload.java",
+      "source_location": "L32",
+      "weight": 1,
+      "source": "payloads_userpayload_userpayload",
+      "target": "payloads_userpayload_userpayload_patchuser",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/ExtentReportManager.java",
+      "source_location": "L17",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_utils_extentreportmanager_java",
+      "target": "utils_extentreportmanager_extentreportmanager",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/ExtentReportManager.java",
+      "source_location": "L21",
+      "weight": 1,
+      "source": "utils_extentreportmanager_extentreportmanager",
+      "target": "utils_extentreportmanager_extentreportmanager_extentreportmanager",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/ExtentReportManager.java",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "utils_extentreportmanager_extentreportmanager",
+      "target": "utils_extentreportmanager_extentreportmanager_getinstance",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L13",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_utils_tokenstore_java",
+      "target": "utils_tokenstore_tokenstore",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L17",
+      "weight": 1,
+      "source": "utils_tokenstore_tokenstore",
+      "target": "utils_tokenstore_tokenstore_tokenstore",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "utils_tokenstore_tokenstore",
+      "target": "utils_tokenstore_tokenstore_getvalidtoken",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L32",
+      "weight": 1,
+      "source": "utils_tokenstore_tokenstore",
+      "target": "utils_tokenstore_tokenstore_invalidate",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L38",
+      "weight": 1,
+      "source": "utils_tokenstore_tokenstore",
+      "target": "utils_tokenstore_tokenstore_fetchtoken",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/TokenStore.java",
+      "source_location": "L25",
+      "weight": 1,
+      "source": "utils_tokenstore_tokenstore_getvalidtoken",
+      "target": "utils_tokenstore_tokenstore_fetchtoken",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L14",
+      "weight": 1,
+      "source": "src_test_java_com_apitest_utils_reqresmockserver_java",
+      "target": "utils_reqresmockserver_reqresmockserver",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L18",
+      "weight": 1,
+      "source": "utils_reqresmockserver_reqresmockserver",
+      "target": "utils_reqresmockserver_reqresmockserver_start",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L27",
+      "weight": 1,
+      "source": "utils_reqresmockserver_reqresmockserver",
+      "target": "utils_reqresmockserver_reqresmockserver_stop",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L34",
+      "weight": 1,
+      "source": "utils_reqresmockserver_reqresmockserver",
+      "target": "utils_reqresmockserver_reqresmockserver_getbaseurl",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L41",
+      "weight": 1,
+      "source": "utils_reqresmockserver_reqresmockserver",
+      "target": "utils_reqresmockserver_reqresmockserver_setupstubs",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "utils_reqresmockserver_reqresmockserver_start",
+      "target": "utils_reqresmockserver_reqresmockserver_setupstubs",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/com/apitest/utils/ReqresMockServer.java",
+      "source_location": "L36",
+      "weight": 1,
+      "source": "utils_reqresmockserver_reqresmockserver_getbaseurl",
+      "target": "utils_reqresmockserver_reqresmockserver_start",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1,
+      "source": "readme_md",
+      "target": "restassured_api_test_suite_readme_rest_assured_api_automation_suite",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1,
+      "source": "restassured_api_test_suite_readme_rest_assured_api_automation_suite",
+      "target": "restassured_api_test_suite_readme_features",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L28",
+      "weight": 1,
+      "source": "restassured_api_test_suite_readme_rest_assured_api_automation_suite",
+      "target": "restassured_api_test_suite_readme_tech_stack",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1,
+      "source": "restassured_api_test_suite_readme_rest_assured_api_automation_suite",
+      "target": "restassured_api_test_suite_readme_project_structure",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "weight": 1,
+      "source": "restassured_api_test_suite_readme_rest_assured_api_automation_suite",
+      "target": "restassured_api_test_suite_readme_running_the_suite",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L96",
+      "weight": 1,
+      "source": "restassured_api_test_suite_readme_rest_assured_api_automation_suite",
+      "target": "restassured_api_test_suite_readme_ci_pipeline",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L108",
+      "weight": 1,
+      "source": "restassured_api_test_suite_readme_rest_assured_api_automation_suite",
+      "target": "restassured_api_test_suite_readme_target_api",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L114",
+      "weight": 1,
+      "source": "restassured_api_test_suite_readme_rest_assured_api_automation_suite",
+      "target": "restassured_api_test_suite_readme_author",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L42",
+      "weight": 1,
+      "source": "restassured_api_test_suite_readme_project_structure",
+      "target": "restassured_api_test_suite_readme_codeblock_1",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "weight": 1,
+      "source": "restassured_api_test_suite_readme_running_the_suite",
+      "target": "restassured_api_test_suite_readme_codeblock_2",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "weight": 1,
+      "source": "restassured_api_test_suite_readme_ci_pipeline",
+      "target": "restassured_api_test_suite_readme_codeblock_3",
+      "confidence_score": 1
+    }
+  ]
+}

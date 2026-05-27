@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--
+    REST Assured API Automation Suite — TestNG Suite Runner
+    Run via Maven:  mvn test
+    Run directly:   mvn test -Dsurefire.suiteXmlFiles=testng.xml
+-->
+<suite name="REST Assured API Suite" verbose="1" parallel="none">
+
+    <!-- ── Smoke: fast sanity pass on every PR ── -->
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.apitest.tests.CrudWorkflowTest"/>
+            <class name="com.apitest.tests.AuthTests"/>
+        </classes>
+    </test>
+
+    <!-- ── Full regression ── -->
+    <test name="CRUD Workflow Tests">
+        <classes>
+            <class name="com.apitest.tests.CrudWorkflowTest"/>
+        </classes>
+    </test>
+
+    <test name="Schema Validation Tests">
+        <classes>
+            <class name="com.apitest.tests.SchemaValidationTest"/>
+        </classes>
+    </test>
+
+    <test name="Contract Validation Tests">
+        <classes>
+            <class name="com.apitest.tests.ContractValidationTest"/>
+        </classes>
+    </test>
+
+    <test name="Chained Endpoint Tests">
+        <classes>
+            <class name="com.apitest.tests.ChainedEndpointTest"/>
+        </classes>
+    </test>
+
+    <test name="Auth and Header Tests">
+        <classes>
+            <class name="com.apitest.tests.AuthTests"/>
+        </classes>
+    </test>
+
+    <test name="Negative and Edge Case Tests">
+        <classes>
+            <class name="com.apitest.tests.NegativeEdgeCaseTest"/>
+        </classes>
+    </test>
+
+    <test name="XML Schema Validation Tests">
+        <classes>
+            <class name="com.apitest.tests.XmlSchemaValidationTest"/>
+        </classes>
+    </test>
+</suite>

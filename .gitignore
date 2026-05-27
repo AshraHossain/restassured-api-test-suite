@@ -1,0 +1,24 @@
+# ── Maven build output ──
+target/
+*.class
+*.jar
+*.war
+
+# ── IDE files ──
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+
+# ── Test reports (generated at runtime — served as CI artifacts) ──
+target/extent-reports/
+target/surefire-reports/
+
+# ── Generated tool output ──
+graphify-out/
+
+# ── Secrets (never commit) ──
+.env
+secrets.properties
+src/test/resources/config/secrets.properties
