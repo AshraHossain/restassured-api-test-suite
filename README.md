@@ -4,7 +4,7 @@
 ![Java](https://img.shields.io/badge/Java-17-007396?logo=java)
 ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-5.4-49A55E)
 ![TestNG](https://img.shields.io/badge/TestNG-7.9-FF6C37)
-![License](https://img.shields.io/badge/License-MIT-blue)
+![License](https://img.shields.io/badge/License-Proprietary-red)
 
 End-to-end API test framework built with **Rest Assured 5** and **TestNG 7**. Covers CRUD workflows, JSON/XML schema assertions, consumer-driven contract validation, and multi-step chained endpoint flows — wired into **GitHub Actions** for continuous regression on every push and pull request.
 
@@ -70,6 +70,22 @@ restassured-api-test-suite/
 
 ---
 
+## Framework
+
+`restassured-api-test-suite` follows the SuperClaude Framework project
+structure:
+
+- [`PLANNING.md`](PLANNING.md) — architecture, module responsibilities, and design constraints (source of truth, kept in sync with `CLAUDE.md`)
+- [`TASK.md`](TASK.md) — priority-ordered task list
+- [`plugins/`](plugins/README.md) — reserved extension point for a real-backend CI profile, alternate reporters, and contract-testing integrations
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) — development setup and contribution workflow
+
+## Getting Started
+
+```bash
+mvn test
+```
+
 ## Running the Suite
 
 **Prerequisites:** Java 17+, Maven 3.8+
@@ -79,7 +95,8 @@ restassured-api-test-suite/
 git clone https://github.com/AshraHossain/restassured-api-test-suite.git
 cd restassured-api-test-suite
 
-# Run full suite (uses reqres.in public sandbox — no key required)
+# Run full suite (offline — backed by a local WireMock mock server, no
+# network access or API key required; see PLANNING.md)
 mvn test
 
 # Run smoke group only
@@ -107,9 +124,31 @@ Report artifacts are retained for 30 days and visible under **Actions → workfl
 
 ## Target API
 
-Tests run against [reqres.in](https://reqres.in) — a free, public REST sandbox that requires no authentication setup. To point the suite at your own API, set the `BASE_URL` environment variable or update `src/test/resources/config/config.properties`.
+The suite is **offline-first**: `BaseTest` boots a local WireMock server
+(`com.apitest.utils.ReqresMockServer`) on a dynamic port and stubs the
+endpoints under test to mimic the classic [reqres.in](https://reqres.in)
+user API — no network access or API key is required to run `mvn test`.
+`config.properties` documents `BASE_URL`/`API_KEY` as CI-overridable for
+pointing the suite at a real backend instead; see `PLANNING.md` for the
+mock-server architecture and `TASK.md` for the status of a real-backend CI
+path.
 
 ---
+
+## Architecture
+
+See [`PLANNING.md`](PLANNING.md) for the full architecture writeup (module
+responsibilities, offline-first WireMock design, key design constraints)
+and [`CLAUDE.md`](CLAUDE.md) for the same content oriented at Claude Code
+sessions.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for development setup and workflow.
+
+## License
+
+Proprietary. See [LICENSE](LICENSE). All rights reserved.
 
 ## Author
 
