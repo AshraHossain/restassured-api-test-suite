@@ -21,3 +21,4 @@ graphify-out/
 .env
 secrets.properties
 src/test/resources/config/secrets.properties
+.venv/
